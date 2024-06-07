@@ -20,16 +20,10 @@
     align-items: center;
   }
   .sp-header .bg-img {
-    width: 30%;
-    aspect-ratio: 1;
-    background-image: url(../img/323Marchelogo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-
-  .sp-header .logo {
     width: 40%;
+  }
+  .sp-header .bg-img video {
+    width: 100%;
   }
 
   .sp-user {
@@ -81,6 +75,11 @@
     color: #ff6243;
   }
 
+  /* HeaderHeroセクション */
+  .sub-hero .hero-text {
+    transform: translate(20%, 100%);
+  }
+  
   .footer {
     display: block;
   }
@@ -90,3 +89,4 @@
   }
   
 }
+
